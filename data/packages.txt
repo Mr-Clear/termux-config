@@ -1,46 +1,89 @@
-bash - A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
-command-not-found - Suggest installation of packages in interactive shell sessions
-termux-tools - Some tools for Termux
-ack-grep - Tool like grep, optimized for programmers
-linux-man-pages - Man pages for linux kernel and C library interfaces
-ranger - File manager with VI key bindings
-aria2 - Multi-protocol & multi-source command-line download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink       asciinema - Record and share your terminal sessions, the right way
-bash-completion - Programmable completion for the bash shell
-bc - Arbitrary precision numeric processing language
-bsdtar - The tar(1) and cpio(1) programs from FreeBSD, using libarchive
-bzip2 - Tools for working with bzip2 compression
-curl - Command line tool for transferring data with URL syntax
-dialog - Application used in shell scripts which displays text user interface widgets
-diffutils - Programs (cmd, diff, diff3 and sdiff) related to finding differences between files
-dnsutils - Clients provided with BIND
-file - Command-line tool that tells you in words what kind of data a file contains
-grep - Command which searches one or more input files for lines containing a match to a specified pattern
-gzip - Standard GNU file compression utilities
-inetutils - Collection of common network programs
-less - Terminal pager program used to view the contents of a text file one screen at a time
-lftp - FTP/HTTP client and file transfer program
-lynx - The text web browser
-man - Man page viewer from the mandoc toolset
-mc - Midnight Commander - a powerful file manager
-mutt - Mail client
-neovim - Ambitious Vim-fork focused on extensibility and agility (nvim)
-nmap - Utility for network discovery and security auditing
-openssh - Secure shell for logging into a remote machine
-openssl-tool - The openssl command line cryptographic tool
-p7zip - Command-line version of the 7zip compressed file archiver
-perl - Capable, feature-rich programming language
-pwgen - Password generator which by default, unless given the '-s' option, generates memorable but insecure passwords
-rsync - Utility that provides fast incremental file transfer
-sed - GNU stream text editor
-stunnel - Socket wrapper which can provide TLS support to ordinary applications
-tar - GNU tar for manipulating tar archives
-termux-api - Termux API commands
-termux-tools - Some tools for Termux
-unrar - Tool for extracting files from .rar archives
-unzip - Tools for working with zip files
-vim - Vi IMproved - enhanced vi editor
-w3m - Text based Web browser and pager
-wcalc - Capable calculator
-wget - Commandline tool for retrieving files using HTTP, HTTPS and FTP
-zip - Tools for working with zip files
-zsh - Shell designed for interactive use, although it is also a powerful scripting language
+aapt — Android Asset Packaging Tool
+apt — Front-end for the dpkg package manager
+apt-transport-https — Https download support for APT
+aria2 — Multi-protocol & multi-source command-line download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink
+asciinema — Record and share your terminal sessions, the right way
+autossh — Automatically restart SSH sessions and tunnels
+bash — A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+bash-completion — Programmable completion for the bash shell
+binutils — Collection of binary tools, the main ones being ld, the GNU linker, and as, the GNU assembler
+bsdtar — The tar(1) and cpio(1) programs from FreeBSD, using libarchive
+busybox — Tiny versions of many common UNIX utilities into a single small executable
+bzip2 — Tools for working with bzip2 compression
+command-not-found — Suggest installation of packages in interactive shell sessions
+coreutils — Basic file, shell and text manipulation utilities from the GNU project
+curl — Command line tool for transferring data with URL syntax
+daemonize — Run a command as a Unix daemon
+dash — Small POSIX-compliant implementation of /bin/sh
+diffutils — Programs (cmd, diff, diff3 and sdiff) related to finding differences between files
+direvent — Monitor of events in file system directories
+dnsutils — Clients provided with BIND
+dpkg — Debian package management system
+dx — Command which takes in class files and reformulates them for usage on Android
+figlet — Program for making large letters out of ordinary text
+file — Command-line tool that tells you in words what kind of data a file contains
+findutils — Utilities to find files meeting specified criteria and perform various actions on the files which are found
+fsmon — Filesystem monitor with fanotify and inotify backends
+fzf — Command-line fuzzy finder
+gawk — Interpreted programming language designed for text processing and typically used as a data extraction and reporting tool
+git — Distributed version control system designed to handle everything from small to very large projects with speed and efficiency
+gnupg2 — Implementation of the OpenPGP standard for encrypting and signing data and communication
+gpgv — GNU privacy guard - signature verification tool
+grep — Command which searches one or more input files for lines containing a match to a specified pattern
+gzip — Standard GNU file compression utilities
+hexcurse — Console hexeditor
+ht — File editor/viewer/analyzer for executables
+htop — Interactive process viewer for Linux
+inetutils — Collection of common network programs
+inotify-tools — Programs providing a simple interface to inotify
+iperf3 — TCP, UDP, and SCTP network bandwidth measurement tool
+jhead — Exif Jpeg header manipulation tool
+jq — Command-line JSON processor
+less — Terminal pager program used to view the contents of a text file one screen at a time
+linux-man-pages — Man pages for linux kernel and C library interfaces
+ltrace — Tracks runtime library calls in dynamically linked programs
+lzip — Lossless data compressor similar to gzip and bzip2
+make — Tool which controls the generation of executables and other non-source files of a program from the program's source files
+man — Man page viewer from the mandoc toolset
+mc — Midnight Commander - a powerful file manager
+mosh — Mobile shell that supports roaming and intelligent local echo
+mp3splt — Mp3Splt-project is a utility to split mp3, ogg vorbis and native FLAC files selecting a begin and an end time position, without decoding
+mpv — Command-line media player
+multitail — Tool to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge
+nano — Small, free and friendly text editor
+ncdu — Disk usage analyzer
+netcat — Feature-packed networking utility which reads and writes data across networks from the command line
+nmap — Utility for network discovery and security auditing
+nodejs — Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+openssh — Secure shell for logging into a remote machine
+openssl — Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+optipng — PNG optimizer that recompresses image files to a smaller size, without losing any information
+p7zip — Command-line version of the 7zip compressed file archiver
+parallel — GNU Parallel is a shell tool for executing jobs in parallel using one or more machines
+patch — GNU patch which applies diff files to create patched files
+pathpicker — Facebook PathPicker - a terminal-based file picker
+pick — Utility to choose one option from a set of choices with fuzzy search functionality
+procps — Utilities that give information about processes using the /proc filesystem
+psmisc — Some small useful utilities that use the proc filesystem
+python — Python 3 programming language intended to enable clear programs
+python2 — Python 2 programming language intended to enable clear programs
+rsync — Utility that provides fast incremental file transfer
+sed — GNU stream text editor
+silversearcher-ag — Fast grep-like program, alternative to ack-grep
+socat — Relay for bidirectional data transfer between two independent data channels
+sqlite — Command line shell for SQLite
+strace — Debugging utility to monitor the system calls used by a program and all the signals it receives
+tar — GNU tar for manipulating tar archives
+tcpdump — Powerful command-line packet analyzer
+termux-api — Termux API commands
+tig — Ncurses-based text-mode interface for git
+toilet — FIGlet-compatible display of large colourful characters in text mode
+tracepath — Tool to trace the network path to a remote host
+tree — Recursive directory lister producing a depth indented listing of files
+tsu — A su wrapper for Termux
+ttyrec — Terminal recorder and player
+unrar — Tool for extracting files from .rar archives
+unzip — Tools for working with zip files
+wget — Commandline tool for retrieving files using HTTP, HTTPS and FTP
+xz-utils — XZ-format compression tools
+zip — Tools for working with zip files
