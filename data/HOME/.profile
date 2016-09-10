@@ -16,5 +16,3 @@ fi
 
 # set PATH so it includes user's private bin if it exists
 [ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
-
-# EOF

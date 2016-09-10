@@ -3,5 +3,3 @@
 
 typeset -U path
 path=(~/bin /opt/bin /opt/sbin /usr/local/sbin /usr/local/bin $path)
-
-# EOF

@@ -48,5 +48,3 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # Load shell independent aliases
 [[ -r ~/.sh_aliases ]] && . ~/.sh_aliases
-
-# EOF
