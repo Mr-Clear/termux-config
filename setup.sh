@@ -8,7 +8,7 @@ masterzip_url='https://github.com/brbsix/termux-config/archive/master.zip'
 masterzip_file="$HOME/tmp/termux-config-master.zip"
 masterzip_dir="$HOME/tmp/termux-config"
 master_dir="$masterzip_dir/termux-config-master"
-package_file="$master_dir/data/packages.txt"
+package_file="$master_dir/data/packages.list"
 
 echo 'Setting up Termux'
 
