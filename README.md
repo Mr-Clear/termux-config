@@ -6,6 +6,6 @@ To get going, copy the following command and paste it into Termux:
 
 
 ```bash
-busybox wget -qO- http://cdn.rawgit.com/brbsix/termux-config/master/setup.sh \
-| busybox ash -x
+wget -qO- http://cdn.rawgit.com/brbsix/termux-config/master/setup.sh \
+| bash
 ```
