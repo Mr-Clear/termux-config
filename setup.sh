@@ -16,18 +16,18 @@ echo
 mkdir -p "$HOME/tmp" "$HOME/bin"
 
 echo 'updating installation...'
-apt update
-apt full-upgrade -y
+apt update &>/dev/null
+apt full-upgrade -y &>/dev/null
 echo
 
 echo 'setting up prerequisites...'
-apt install -y wget
+apt install -y wget &>/dev/null
 hash -r
 rm -rf "$masterzip_file"
-wget -O "$masterzip_file" "$masterzip_url"
+wget -O "$masterzip_file" "$masterzip_url" &>/dev/null
 rm -rf "$masterzip_dir"
 mkdir -p "$masterzip_dir"
-unzip -d "$masterzip_dir" "$masterzip_file"
+unzip -d "$masterzip_dir" "$masterzip_file" &>/dev/null
 
 echo 'copying files...'
 cp -rp "$master_dir/data/HOME/." "$HOME"
