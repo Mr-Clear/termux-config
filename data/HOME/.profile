@@ -10,8 +10,8 @@
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
-  # include .bashrc if it exists
-  [ -f "$HOME/.bashrc" ] && . "$HOME/.bashrc"
+    # include .bashrc if it exists
+    [ -f "$HOME/.bashrc" ] && . "$HOME/.bashrc"
 fi
 
 # set PATH so it includes user's private bin if it exists
