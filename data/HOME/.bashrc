@@ -3,6 +3,10 @@
 # if not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+: ${HOSTNAME:=$(getprop ro.product.device)}
+: ${HOSTNAME:=android}
+export HOSTNAME
+
 # don't put duplicate lines or lines starting with space in the history
 HISTCONTROL=ignoreboth
 
