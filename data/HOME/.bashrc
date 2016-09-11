@@ -3,9 +3,7 @@
 # if not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-: ${HOSTNAME:=$(getprop ro.product.device)}
-: ${HOSTNAME:=android}
-export HOSTNAME
+export HOSTNAME=$(getprop ro.product.device)
 
 # don't put duplicate lines or lines starting with space in the history
 HISTCONTROL=ignoreboth
@@ -45,9 +43,9 @@ shopt -s hostcomplete
 
 # enable colorful terminal
 if [[ ${EUID} == 0 ]] ; then
-    PS1='\[\033[01;31m\]${HOSTNAME:=$(hostname)}\[\033[01;34m\] \W \$\[\033[00m\] '
+    PS1='\[\033[01;31m\]\h\[\033[01;34m\] \W \$\[\033[00m\] '
 else
-    PS1='\[\033[01;32m\]${USER:=$(id \-un)}@${HOSTNAME:=$(hostname)}\[\033[01;34m\] \w \$\[\033[00m\] '
+    PS1='\[\033[01;32m\]${USER:=$(id \-un)}@\h\[\033[01;34m\] \w \$\[\033[00m\] '
 fi
 
 # alias definitions
