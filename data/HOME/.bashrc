@@ -45,7 +45,7 @@ shopt -s hostcomplete
 if [[ ${EUID} == 0 ]] ; then
     PS1='\[\033[01;31m\]$HOSTNAME\[\033[01;34m\] \W \$\[\033[00m\] '
 else
-    PS1='\[\033[01;32m\]${USER:=$(id \-un)}@$HOSTNAME\[\033[01;34m\] \w \$\[\033[00m\] '
+    PS1='\[\033[01;32m\]\u@$HOSTNAME\[\033[01;34m\] \w \$\[\033[00m\] '
 fi
 
 # alias definitions
