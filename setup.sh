@@ -2,7 +2,7 @@
 
 {
 
-set -euo pipefail
+set -eo pipefail
 
 masterzip_url='https://github.com/brbsix/termux-config/archive/master.zip'
 masterzip_file="$HOME/tmp/termux-config-master.zip"
