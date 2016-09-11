@@ -11,6 +11,7 @@ master_dir="$masterzip_dir/termux-config-master"
 package_file="$master_dir/data/packages.list"
 
 echo 'Setting up Termux'
+echo
 
 mkdir -p "$HOME/tmp" "$HOME/bin"
 
