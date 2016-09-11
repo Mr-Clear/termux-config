@@ -38,6 +38,10 @@ if [[ $1 != --no-packages ]]; then
     echo
 fi
 
+echo 'cleaning up...'
+rm -rf "$HOME/tmp"
+echo
+
 echo 'Done.'
 
 }
