@@ -32,9 +32,11 @@ echo 'copying files...'
 cp -rp "$master_dir/data/HOME/." "$HOME"
 echo
 
-echo 'installing packages...'
-awk '{print $1}' "$package_file" | xargs -r -- apt install -y
-echo
+if [[ $1 != --no-packages ]]; then
+    echo 'installing packages...'
+    awk '{print $1}' "$package_file" | xargs -r -- apt install -y
+    echo
+fi
 
 echo 'Done.'
 
