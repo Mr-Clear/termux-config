@@ -28,6 +28,7 @@ wget -O "$masterzip_file" "$masterzip_url" &>/dev/null
 rm -rf "$masterzip_dir"
 mkdir -p "$masterzip_dir"
 unzip -d "$masterzip_dir" "$masterzip_file" &>/dev/null
+echo
 
 echo 'copying files...'
 cp -rp "$master_dir/data/HOME/." "$HOME"
