@@ -41,7 +41,7 @@ if [[ $1 != --no-packages ]]; then
 fi
 
 echo 'cleaning up...'
-rm -rf "$HOME/tmp"
+rm -rf "$HOME/.wget-hsts" "$HOME/tmp"
 echo
 
 echo 'Done.'
