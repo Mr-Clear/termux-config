@@ -17,6 +17,7 @@ daemonize — Run a command as a Unix daemon
 dash — Small POSIX-compliant implementation of /bin/sh
 diffutils — Programs (cmd, diff, diff3 and sdiff) related to finding differences between files
 direvent — Monitor of events in file system directories
+dirmngr — Server for managing certificate revocation lists
 dnsutils — Clients provided with BIND
 dpkg — Debian package management system
 dx — Command which takes in class files and reformulates them for usage on Android
