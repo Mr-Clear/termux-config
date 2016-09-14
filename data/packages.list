@@ -56,7 +56,7 @@ netcat — Feature-packed networking utility which reads and writes data across 
 nmap — Utility for network discovery and security auditing
 nodejs — Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
 openssh — Secure shell for logging into a remote machine
-openssl — Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+openssl-tool — The openssl command line cryptographic tool
 optipng — PNG optimizer that recompresses image files to a smaller size, without losing any information
 p7zip — Command-line version of the 7zip compressed file archiver
 parallel — GNU Parallel is a shell tool for executing jobs in parallel using one or more machines
