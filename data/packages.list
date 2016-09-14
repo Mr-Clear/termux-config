@@ -10,6 +10,7 @@ binutils — Collection of binary tools, the main ones being ld, the GNU linker,
 bsdtar — The tar(1) and cpio(1) programs from FreeBSD, using libarchive
 busybox — Tiny versions of many common UNIX utilities into a single small executable
 bzip2 — Tools for working with bzip2 compression
+clang — C and C++ frontend for the LLVM compiler
 command-not-found — Suggest installation of packages in interactive shell sessions
 coreutils — Basic file, shell and text manipulation utilities from the GNU project
 curl — Command line tool for transferring data with URL syntax
