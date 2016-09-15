@@ -1,0 +1,9 @@
+[user]
+	email = brbsix@gmail.com
+	name = Six
+[core]
+	editor = nano
+[push]
+	default = simple
+[alias]
+	l = log --decorate --graph --oneline
