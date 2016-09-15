@@ -1,3 +1,9 @@
+# grep the shell history
+hgrep(){
+    grep "$@" "$HOME/.bash_history"
+}
+
+
 # list all packages and their descriptions
 packages(){
     while IFS= read -r package; do
