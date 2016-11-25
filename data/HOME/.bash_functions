@@ -1,6 +1,6 @@
 # grep the shell history
 hgrep(){
-    grep "$@" "$HOME/.bash_history"
+    grep -- "$@" "$HOME/.bash_history"
 }
 
 
