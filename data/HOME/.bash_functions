@@ -6,7 +6,13 @@ hgrep(){
 
 # list all packages and their descriptions
 packages(){
-    while IFS= read -r package; do
-        echo "$package — $(apt show "$package" 2>/dev/null | awk '/^Description: / {sub("^Description: ", ""); print}')"
-    done < <(apt list 2>/dev/null | awk -F'/' '/\// {print $1}')
+    apt list --verbose 2>/dev/null | awk '
+        ! (NR == 1 && /^Listing...$/) && ! /^(  |$)/ {
+            sub("/.*", "")
+            n = $0
+            getline
+            sub("^  ", "")
+            d = $0
+            print n, "—", d
+        }'
 }
